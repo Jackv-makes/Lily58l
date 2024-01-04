@@ -1,0 +1,12 @@
+OLED_DRIVER_ENABLE = yes   # Enables the use of OLED displays
+ENCODER_ENABLE = yes       # ENables the use of one or more encoders
+RGBLIGHT_ENABLE = yes      # Enable keyboard RGB light
+TAP_DANCE_ENABLE = no
+CONSOLE_ENABLE = no
+EXTRAKEY_ENABLE = yes
+WPM_ENABLE = yes
+EXTRAFLAGS += -flto
+AUDIO_ENABLE   = no     # Audio output on port C6
+LINK_TIME_OPTIMIZATION_ENABLE = yes
+SPACE_CADET_ENABLE=no
+MOUSEKEY_ENABLE = yes
